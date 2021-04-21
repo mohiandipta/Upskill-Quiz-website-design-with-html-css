@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand',
+        sans-serif;
+    scroll-behavior: smooth;
+}
+
+img {
+    width: 1349px;
+    height: 900px;
+}
+
+header .banner .shadow {
+    width: 1349px;
+    height: 900px;
+    background: transparent linear-gradient(180deg, #1A1E23 0%, #54545470 100%) 0% 0% no-repeat padding-box;
+}
+
+header {
+    position: absolute;
+    display: flex;
+    color: white;
+}
+
+header .logo {
+    font-family: 'Quicksand', sans-serif;
+}
