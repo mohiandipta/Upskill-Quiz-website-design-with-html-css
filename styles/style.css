@@ -1,1 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+section {
+    margin-top: 80px;
+}
+
+section .left-segment .svg-pic .layer img {
+    position: absolute;
+    width: 450px;
+    height: 550px;
+}
+
+section .left-segment .svg-pic .svg img {
+    width: 450px;
+    height: 550px;
+}
+
+section .left-segment {
+    margin-left: 200px;
+}

@@ -1,31 +1,76 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Quicksand',
+    font-family: 'Montserrat',
         sans-serif;
     scroll-behavior: smooth;
 }
 
-img {
-    width: 1349px;
-    height: 900px;
-}
-
-header .banner .shadow {
-    width: 1349px;
-    height: 900px;
-    background: transparent linear-gradient(180deg, #1A1E23 0%, #54545470 100%) 0% 0% no-repeat padding-box;
-}
-
-header {
+.site-header {
     position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 50px;
+    z-index: auto;
     display: flex;
-    color: white;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.5s;
 }
 
-header .logo {
-    font-family: 'Quicksand', sans-serif;
+.site-header ul {
+    padding-left: 200px;
+    position: relative;
+    display: flex;
+}
+
+.site-header ul li {
+    position: relative;
+    list-style: none;
+}
+
+.site-header ul li a {
+    font-size: 12px;
+    position: relative;
+    display: inline-block;
+    margin: 0px 10px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.site-header .logo img {
+    height: 50px;
+}
+
+.site-header .nav-btn button a {
+    text-decoration: none;
+}
+
+.site-header .nav-btn .signin_toggle {
+    margin-right: 20px;
+    border: none;
+}
+
+.site-header .nav-btn .signin_toggle a {
+    text-transform: uppercase;
+    color: #0062FF;
+    background-color: #FFFFFF;
+}
+
+.site-header .nav-btn .signup_toggle {
+    border: none;
+    width: 90px;
+    height: 34px;
+    background: #60D91A 0% 0% no-repeat padding-box;
+    border-radius: 4px;
+    box-shadow: 0px 10px 20px #60D91A4D;
+    opacity: 1;
+}
+
+.site-header .nav-btn .signup_toggle a {
+    color: white;
 }
