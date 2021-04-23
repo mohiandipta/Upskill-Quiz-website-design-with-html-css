@@ -7,16 +7,98 @@ section .left-segment {
     width: 500px;
 }
 
+section .left-segment .top-description {
+    width: 290px;
+    position: absolute;
+    top: 230px;
+    left: 250px;
+    z-index: auto;
+}
+
+section .left-segment .top-description .graphics {
+    width: 160px;
+    height: 20px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 10px 15px #60D91A4D;
+    border-radius: 20px;
+    opacity: 1;
+    margin-bottom: 15px;
+}
+
+section .left-segment .top-description .graphics p {
+    font: Montserrat;
+    font-size: 11px;
+    padding-top: 3px;
+    text-align: center;
+}
+
+section .left-segment .top-description .photoshop p {
+    text-align: left;
+    font: normal normal bold 25px/25px Montserrat;
+    letter-spacing: -1.6px;
+    color: #FFFFFF;
+    text-shadow: 0px 0px 40px #000000;
+    opacity: 1;
+}
+
+section .left-segment .top-description .description p {
+    text-align: left;
+    font: normal normal normal 15px/24px Montserrat;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-shadow: 0px 0px 30px #000000;
+    opacity: 1;
+}
+
+section .left-segment .top-description .author {
+    padding-top: 170px;
+}
+
+section .left-segment .top-description .author p {
+    font-size: 13px;
+    color: white;
+    text-shadow: 0px 0px 30px #000000;
+    opacity: 1;
+}
+
+section .left-segment .top-description .date-time {
+    display: flex;
+    width: 500px;
+}
+
+section .left-segment .top-description .date-time .social-media {
+    padding-left: 160px;
+}
+
+section .left-segment .top-description .date-time .social-media a {
+    text-decoration: none;
+}
+
+section .left-segment .top-description .date-time .social-media a i {
+    width: 20px;
+    color: white;
+    text-shadow: 0px 0px 30px #000000;
+}
+
+section .left-segment .top-description .date-time p {
+    font-size: 15px;
+    color: white;
+    text-shadow: 0px 0px 30px #000000;
+    opacity: 1;
+}
+
 section .left-segment .svg-pic .layer img {
     position: absolute;
     width: 450px;
-    height: 552px;
+    height: 600px;
 }
 
 section .left-segment .svg-pic .svg img {
     position: absolute;
     width: 450px;
-    height: 550px;
+    height: 600px;
+    box-shadow: 10px 10px 20px #0a0a0a63;
+    border-radius: 10px;
 }
 
 section .left-segment {
@@ -26,7 +108,7 @@ section .left-segment {
 section .left-segment .progressbar-full {
     margin-top: 63px;
     position: absolute;
-    width: 500px;
+    width: 450px;
     height: 10px;
     background: #ffffffb7 0% 0% no-repeat padding-box;
 
@@ -75,7 +157,7 @@ section .right-segment .quiz .buttons .submit-btn {
     width: 467px;
     height: 65px;
     background: #0062FF 0% 0% no-repeat padding-box;
-    box-shadow: 0px 10px 20px #0062FF4D;
+    box-shadow: 10px 10px 20px #0062ff63;
     border: none;
     border-radius: 4px;
     opacity: 1;
@@ -110,7 +192,7 @@ section .right-segment .quiz .buttons .next-btn a {
 
 footer {
     display: flex;
-    margin-top: 180px;
+    margin-top: 230px;
     height: 300px;
     width: 1349px;
     background: #000000;
@@ -225,7 +307,7 @@ footer .subscribe .sub-btn {
 
 footer .subscribe .sub-btn button {
     width: 250px;
-    height: 44px;
+    height: 38px;
     background-color: #000000;
     border: 2px solid #60D91A;
     border-radius: 4px;
@@ -234,5 +316,13 @@ footer .subscribe .sub-btn button {
 
 footer .subscribe .sub-btn button a {
     text-decoration: none;
-    color: white;
+    color: #60D91A;
+}
+
+/* Question 2 page */
+
+section .right-segment .quiz .error img {
+    margin-left: 80px;
+    width: 300px;
+    height: 150px;
 }
