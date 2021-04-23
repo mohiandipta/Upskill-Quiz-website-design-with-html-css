@@ -107,3 +107,132 @@ section .right-segment .quiz .buttons .next-btn a {
     text-transform: uppercase;
     opacity: 1;
 }
+
+footer {
+    display: flex;
+    margin-top: 180px;
+    height: 300px;
+    width: 1349px;
+    background: #000000;
+}
+
+footer .about-us {
+    padding-top: 50px;
+    padding-left: 80px;
+}
+
+footer .about-us img {
+    height: 61px;
+    width: 100px;
+}
+
+footer .about-us p {
+    font: normal normal bold 13px/29px Montserrat;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+footer .description {
+    width: 380px;
+}
+
+footer .about-us .description p {
+    text-align: left;
+    font: normal normal normal 10px/22px Montserrat;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    text-align: start;
+}
+
+footer .helpful-link {
+    padding-top: 50px;
+    padding-left: 30px;
+}
+
+footer .helpful-link p {
+    font: normal normal bold 13px/29px Montserrat;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+footer .helpful-link .links a {
+    text-decoration: none;
+    font-size: 12px;
+    color: #60D91A;
+}
+
+footer .contact {
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+footer .contact .title p {
+    font: normal normal bold 13px/29px Montserrat;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+footer .contact .address {
+    width: 180px;
+}
+
+footer .contact .address p {
+    font-size: 12px;
+    color: white;
+}
+
+footer .contact .phone p {
+    font-size: 12px;
+    color: white;
+}
+
+footer .contact .email p {
+    font-size: 12px;
+    color: white;
+}
+
+footer .subscribe {
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+footer .subscribe .title p {
+    font: normal normal bold 13px/29px Montserrat;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+footer .subscribe .input-email input {
+    width: 400px;
+    height: 40px;
+    border: 1px solid #FFFFFF;
+    opacity: 1;
+    background-color: #000000;
+}
+
+footer .subscribe .sub-btn {
+    margin-top: 25px;
+}
+
+footer .subscribe .sub-btn button {
+    width: 250px;
+    height: 44px;
+    background-color: #000000;
+    border: 2px solid #60D91A;
+    border-radius: 4px;
+    opacity: 1;
+}
+
+footer .subscribe .sub-btn button a {
+    text-decoration: none;
+    color: white;
+}
