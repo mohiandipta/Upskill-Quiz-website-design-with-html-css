@@ -1,18 +1,109 @@
 section {
     margin-top: 80px;
+    display: flex;
+}
+
+section .left-segment {
+    width: 500px;
 }
 
 section .left-segment .svg-pic .layer img {
     position: absolute;
     width: 450px;
-    height: 550px;
+    height: 552px;
 }
 
 section .left-segment .svg-pic .svg img {
+    position: absolute;
     width: 450px;
     height: 550px;
 }
 
 section .left-segment {
     margin-left: 200px;
+}
+
+section .left-segment .progressbar-full {
+    margin-top: 63px;
+    position: absolute;
+    width: 500px;
+    height: 10px;
+    background: #ffffffb7 0% 0% no-repeat padding-box;
+
+}
+
+section .left-segment .progressbar {
+    margin-top: 63px;
+    position: absolute;
+    width: 169px;
+    height: 10px;
+    background-color: #60D91A;
+}
+
+section .right-segment .quiz {
+    margin-top: 49px;
+}
+
+section .right-segment .quiz .question-no {
+    color: #60D91A;
+    font: normal normal bold 18px/40px Montserrat;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+section .right-segment .quiz .question {
+    font: normal normal bold 24px/30px Open Sans;
+    letter-spacing: -1.2px;
+    color: #000000;
+    opacity: 1;
+}
+
+section .right-segment .quiz .option-pic {
+    display: flex;
+    width: 130px;
+    height: 130px;
+}
+
+section .right-segment .quiz .option-pic img {
+    padding-right: 38px;
+}
+
+section .right-segment .quiz .buttons .submit-btn {
+    margin-top: 30px;
+    top: 429px;
+    left: 985px;
+    width: 467px;
+    height: 65px;
+    background: #0062FF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 10px 20px #0062FF4D;
+    border: none;
+    border-radius: 4px;
+    opacity: 1;
+}
+
+section .right-segment .quiz .buttons .submit-btn a {
+    text-decoration: none;
+    font: normal normal bold 14px/27px Montserrat;
+    letter-spacing: 2.8px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+section .right-segment .quiz .buttons .next-btn {
+    margin-top: 30px;
+    margin-left: 210px;
+    width: 52px;
+    height: 30px;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    border: none;
+}
+
+section .right-segment .quiz .buttons .next-btn a {
+    text-decoration: none;
+    font: normal normal bold 14px/27px Montserrat;
+    letter-spacing: 2.8px;
+    color: #0062FF;
+    text-transform: uppercase;
+    opacity: 1;
 }
