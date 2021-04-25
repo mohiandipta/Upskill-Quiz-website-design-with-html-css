@@ -1,0 +1,9 @@
+section .left-segment .progressbar {
+    margin-top: 63px;
+    position: absolute;
+    width: 450px;
+    height: 10px;
+    background-color: #60D91A;
+}
+
+section .right-segment {}

@@ -400,7 +400,7 @@ section .right-segment .quiz .options .option-3 p {
 
 section .right-segment .score-heading {
     display: flex;
-    padding-top: 10px;
+    margin-top: -5px;
     padding-left: 280px;
 }
 
@@ -415,5 +415,132 @@ section .right-segment .score-heading p {
     letter-spacing: 7.2px;
     color: #0062FF;
     text-transform: uppercase;
+    opacity: 1;
+}
+
+section .right-segment .score-div .completed {
+    padding-top: 25px;
+    text-align: center;
+    font: normal normal bold 80px/40px Montserrat;
+    letter-spacing: 0px;
+    color: #60D91A;
+    text-transform: capitalize;
+    opacity: 1;
+}
+
+section .right-segment .score-div .congratulations p {
+    padding-top: 20px;
+    text-align: center;
+    font: normal normal bold 32px/40px Montserrat;
+    letter-spacing: -1.6px;
+    color: #000000;
+    opacity: 1;
+}
+
+section .right-segment .score-div .no-of-right-ans {
+    text-align: center;
+    font: normal normal normal 18px/40px Montserrat;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+section .right-segment .score-div .review-btn {
+    margin-top: 10px;
+    margin-left: 205px;
+    width: 263px;
+    height: 65px;
+    background: #0062FF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 10px 20px #0062FF4D;
+    border: none;
+    border-radius: 4px;
+    opacity: 1;
+}
+
+section .right-segment .score-div .review-btn a {
+    text-align: center;
+    font: normal normal bold 14px/27px Montserrat;
+    letter-spacing: 2.8px;
+    text-decoration: none;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+section .right-segment .score-div .score-social-media {
+    display: flex;
+}
+
+section .right-segment .score-div .score-social-media .share p {
+    margin-left: 270px;
+    text-align: center;
+    font: normal normal normal 18px/40px Montserrat;
+    letter-spacing: 0px;
+    color: #728391;
+    opacity: 1;
+}
+
+section .right-segment .score-div .score-social-media .score-social-media-logo {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+section .right-segment .score-div .score-social-media .score-social-media-logo a {
+    margin-left: 3px;
+    text-decoration: none;
+    opacity: 1;
+}
+
+section .right-segment .score-div .score-social-media {
+    margin-top: 30px;
+}
+
+section .right-segment .score-div .score-social-media .score-social-media-logo a i {
+    color: #728391;
+}
+
+section .right-segment .score-div .marketing {
+    text-align: center;
+}
+
+section .right-segment .score-div .marketing .ad {
+    width: 270px;
+    margin-top: 30px;
+    margin-left: 205px;
+}
+
+section .right-segment .score-div .marketing .ad p {
+    text-align: center;
+    font: normal normal normal 18px/24px Montserrat;
+    letter-spacing: -0.45px;
+    color: #000000;
+    opacity: 1;
+}
+
+section .right-segment .score-div .marketing .card .tamplet img {
+    margin-top: 10px;
+    width: 250px;
+    height: 200px;
+}
+
+section .right-segment .score-div .marketing .card .title {
+    margin-top: -10px;
+    margin-left: 210px;
+    width: 250px;
+    height: 70px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 5px 10px #01368619;
+    border-radius: 10px;
+    opacity: 1;
+}
+
+section .right-segment .score-div .marketing .card .title p {
+    padding-top: 15px;
+    padding-left: 5px;
+    text-align: left;
+    font: normal normal bold 14px/20px Montserrat;
+    letter-spacing: -0.4px;
+    color: #000000;
+    text-transform: capitalize;
     opacity: 1;
 }
