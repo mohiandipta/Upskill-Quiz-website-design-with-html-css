@@ -6,4 +6,107 @@ section .left-segment .progressbar {
     background-color: #60D91A;
 }
 
-section .right-segment {}
+section .right-segment {
+    padding-left: 30px;
+    height: 2000px;
+}
+
+section .right-segment .quiz {
+    margin-top: 49px;
+}
+
+section .right-segment .question1 {
+    padding-bottom: 40px;
+}
+
+section .right-segment .question1 .question-no {
+    color: #60D91A;
+    font: normal normal bold 18px/40px Montserrat;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+section .right-segment .question1 .question {
+    width: 550px;
+    font: normal normal bold 24px/30px Montserrat;
+    letter-spacing: -1.2px;
+    color: #000000;
+    opacity: 1;
+}
+
+section .right-segment .question1 .options .option-1 {
+    cursor: pointer;
+    width: 467px;
+    height: 60px;
+    background: red 0% 0% no-repeat padding-box;
+    border-radius: 4px;
+    opacity: 1;
+}
+
+section .right-segment .question1 .options .option-1 p {
+    text-align: left;
+    padding-top: 18px;
+    padding-left: 15px;
+    font: normal normal 600 17px/24px Montserrat;
+    letter-spacing: -0.45px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+section .right-segment .question1 .options .close {
+    padding-left: 415px;
+    padding-bottom: 20px;
+    margin-top: -38px;
+    color: white;
+}
+
+section .right-segment .question1 .options .check {
+    padding-left: 415px;
+    padding-bottom: 20px;
+    margin-top: -38px;
+    color: white;
+}
+
+section .right-segment .question1 .options .option-2 {
+    cursor: pointer;
+    margin-top: 10px;
+    width: 467px;
+    height: 60px;
+    background: #60D91A 0% 0% no-repeat padding-box;
+    border-radius: 4px;
+    opacity: 1;
+}
+
+section .right-segment .question1 .options .option-2 p {
+    text-align: left;
+    padding-top: 18px;
+    padding-left: 15px;
+    font: normal normal 600 17px/24px Montserrat;
+    letter-spacing: -0.45px;
+    color: white;
+    opacity: 1;
+}
+
+section .right-segment .question1 .options .option-3 {
+    cursor: pointer;
+    margin-top: 10px;
+    width: 467px;
+    height: 60px;
+    background: #EEEFF2 0% 0% no-repeat padding-box;
+    border-radius: 4px;
+    opacity: 1;
+}
+
+section .right-segment .question1 .options .option-3 p {
+    text-align: left;
+    padding-top: 18px;
+    padding-left: 15px;
+    font: normal normal 600 17px/24px Montserrat;
+    letter-spacing: -0.45px;
+    color: #000000;
+    opacity: 1;
+}
+
+section .right-segment .space {
+    height: 70px;
+}
